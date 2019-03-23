@@ -1,0 +1,8 @@
+n = int(input("Enter the elements in the list"))
+a = []
+for i in range(0, n):
+    element = int(input("Enter the element in the list"))
+    a.append(element)
+a.sort()
+print(a[len(a)//2])
+

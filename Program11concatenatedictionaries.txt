@@ -1,0 +1,17 @@
+n = int(input("Enter the number of values to be entered"))
+d1 = {}
+for i in range(0, n):
+    key = int(input("Enter the key in d1: "))
+    value = int(input("Enter the value in d1: "))
+    d1.update({key: value})
+d2 = {}
+for j in range(0, n):
+    key = int(input("Enter the key in d2: "))
+    value = int(input("Enter the value in d2: "))
+    d2.update({key: value})
+print("updated dictionary", d1)
+print("updated dictionary", d2)
+d = {}
+d.update(d1)
+d.update(d2)
+print("updated dictionary ", d)

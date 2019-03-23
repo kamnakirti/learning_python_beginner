@@ -1,0 +1,4 @@
+read_file1 = open("Test", "r")
+write_file2 = open("Test2", "w")
+for i in open("Test", "r"):
+    write_file2.write(i)

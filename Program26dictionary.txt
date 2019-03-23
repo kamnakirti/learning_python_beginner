@@ -1,0 +1,11 @@
+user_phone_number = input("Enter the phone number ")
+phone_mapping = {
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four"
+}
+output = ""
+for number in user_phone_number:
+    output += phone_mapping.get(number, "!") + " "
+print(output)

@@ -1,0 +1,7 @@
+n = input("Enter the string ")
+vowels = 0
+print(len(n))
+for i in n:
+    if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+        vowels = vowels + 1
+print("The number of vowels are ", vowels)

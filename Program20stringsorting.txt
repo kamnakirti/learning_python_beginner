@@ -1,0 +1,4 @@
+n = input("Enter the string ")
+l = [n for n in n.split("-")]
+l.sort()
+print("Sorted", '-'.join(l))

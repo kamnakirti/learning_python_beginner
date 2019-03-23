@@ -1,0 +1,14 @@
+This is a Python Program to merge two lists and sort it.
+n = int(input("Enter the elements in the first list"))
+a = []
+b = []
+for i in range(0, n):
+    element = int(input("Enter the element in the first list"))
+    a.append(element)
+n2 = int(input("Enter the elements in the second list"))
+for j in range(0, n2):
+    element = int(input("Enter the element in the second list"))
+    b.append(element)
+merged_list = a + b
+merged_list.sort()
+print("The merged list", merged_list)

@@ -1,0 +1,10 @@
+n = int(input("Enter the elements in the list"))
+value = []
+for i in range(0, n):
+    element = int(input("Enter the element to be appended"))
+    value.append(element)
+unique = []
+for x in value:
+    if x not in unique:
+        unique.append(x)
+print(unique)

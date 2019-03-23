@@ -1,0 +1,6 @@
+n = input("enter the string")
+count = 0
+for i in n:
+    if i.islower():
+        count = count + 1
+print("The number of lowercase characters is ", count)

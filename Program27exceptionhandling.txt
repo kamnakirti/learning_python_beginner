@@ -1,0 +1,11 @@
+try:
+    user_age = int(input("Enter the age "))
+    income = 70000
+    risk = income/user_age
+    print(user_age)
+except ZeroDivisionError:
+    print("The age cannot be zero")
+except ValueError:
+    print("Invalid age")
+
+

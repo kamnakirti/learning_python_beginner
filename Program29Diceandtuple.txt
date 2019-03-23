@@ -1,0 +1,13 @@
+import random
+
+
+class Dice:
+    def roll(self):
+        value1 = random.randint(1, 6)
+        value2 = random.randint(1,6)
+        return value1,value2
+
+
+play = Dice()
+print(play.roll())
+

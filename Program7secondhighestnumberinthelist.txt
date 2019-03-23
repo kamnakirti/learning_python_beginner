@@ -1,0 +1,9 @@
+n = int(input("Enter the numbers in the list "))
+value = []
+for i in range(0, n):
+    element = int(input("Enter the elements in the list "))
+    value.append(element)
+print("Before sort", value)
+value.sort()
+print("After sort", value)
+print("The max number in the list", value[(- 2)])

@@ -1,0 +1,10 @@
+n = input("Enter the string ")
+count1 = 0
+count2 = 0
+for i in n:
+    count1 = count1 + 1
+print("The number of characters in a string are ", count1)
+for i in n:
+    if i.isdigit():
+        count2 = count2 + 1
+print("The number of digits in a string are ", count2)

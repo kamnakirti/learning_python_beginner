@@ -1,0 +1,26 @@
+user_input = ""
+started = False
+while True:
+    user_input = input("> ").upper()
+    if user_input == "START":
+        if started:
+            print("Car is already started")
+        else:
+            started = True
+            print("Car started and ready to go")
+    elif user_input == "STOP":
+        if not started:
+            print("Car is already stopped")
+        else:
+            started = False
+            print("Car stopped")
+    elif user_input == "HELP":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to quit
+    """)
+    elif user_input == "QUIT":
+        break
+    else:
+        print("I don't understand that")

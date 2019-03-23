@@ -1,0 +1,12 @@
+n = int(input("Enter the values to be entered in the dictionary "))
+d = {}
+for i in range(1, n + 1):
+    key = int(input("Enter the key values in dictionary "))
+    value = int(input("Enter the values in the dictionary "))
+    d.update({key: value})
+print(d)
+total = 1
+for j in d:
+    total = total * d[j]
+print(total)
+

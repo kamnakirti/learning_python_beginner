@@ -1,0 +1,9 @@
+n = input("Enter the string ")
+count = 0
+word = 1
+for i in n:
+    count = count + 1
+    if i == " ":
+        word = word + 1
+print("The number of characters in the string are ", count)
+print("The number of words in the string are ", word)

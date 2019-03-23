@@ -1,0 +1,7 @@
+file_read = open('C:\\Users\\PC\\goldmedals.txt', 'r')
+print(file_read)
+print(file_read.readlines())
+count = 0
+for number_of_lines in open('C:\\Users\\PC\\goldmedals.txt', 'r'):
+    count = count + 1
+print(count)
